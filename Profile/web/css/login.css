@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.login-div{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.login-div input {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+
+}
+
+.button{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: white;
+    color: orangered;
+}
